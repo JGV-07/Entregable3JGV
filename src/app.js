@@ -24,6 +24,7 @@ app.use(express.json())
 app.use(taskRoutes)
 app.use(userRoutes)
 app.use(categoryRoutes)
+app.use(cors())
 
 app.get('/', (req, res) => {
   res.send('OK');
