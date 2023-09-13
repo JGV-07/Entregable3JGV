@@ -4,6 +4,7 @@ import initModels from './models/initModels.js';
 import taskRoutes from './components/tasks/tasks.routes.js'
 import userRoutes from './components/users/users.routes.js'
 import categoryRoutes from './components/categories/categories.routes.js'
+import cors from 'cors';
 
 initModels();
 
